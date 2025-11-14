@@ -1,3 +1,23 @@
+# Gradle files
+.gradle/
+build/
+local.properties
+
+# Android Studio
+*.iml
+.idea/
+.DS_Store
+/captures
+.externalNativeBuild
+.cxx
+*.apk
+*.ap_
+*.dex
+*.class
+
+# Log files
+*.log
+
 # Built application files
 *.apk
 *.aar
@@ -85,3 +105,16 @@ lint/tmp/
 
 # Android Profiling
 *.hprof
+
+# Gradle files
+.gradle
+/local.properties
+
+# User-specific configurations
+.idea/
+*.iml
+*.iws
+
+# OS-specific files
+.DS_Store
+Thumbs.db
